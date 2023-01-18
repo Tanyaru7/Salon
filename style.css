@@ -1,0 +1,132 @@
+body{
+    background-color: #aeeed2;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.headtwo{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Cormorant SC', serif;
+    font-size: 60px;
+}
+h2{
+    font-family: 'Cormorant SC', serif;
+    font-size: 40px;
+    margin-top: 0px;
+}
+.containertwo{
+    display: flex;
+}
+.one{
+    background-image: url(photo1.jpeg);
+}
+.two{
+    background-image: url(photo2.jpeg);
+}
+.three{
+    background-image: url(photo3.jpeg);
+}
+.four{
+    background-image: url(photo4.jpeg);
+}
+.five{
+    background-image: url(photo5.jpeg);
+}
+.six{
+    background-image: url(photo6.jpeg);
+}
+.seven{
+    background-image: url(photo7.jpeg);
+}
+.item{
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Cormorant SC', serif;
+    flex: 1;
+    position: relative;
+    margin: 5px;
+}
+.selected{
+    flex: 4;
+}
+h4{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color: #fff;
+}
+.par{
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    background-color: #fff;
+}
+.price{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color: #fff;
+}
+.selected h4{
+    font-size: 30px;
+    transition: all 1s ease-in;
+}
+.selected .par{
+    font-size: 15px;
+    transition: all 1s ease-in;
+}
+.selected .price{
+    font-size: 30px;
+    transition: all 1s ease-in;
+}
+h4, .par, .price{
+    font-size: 0px;
+}
+h3{
+    font-family: 'Cormorant SC', serif;
+    font-size: 50px;
+}
+.text{
+    background-color: #aeeed2;
+    border: none;
+    padding: 12px 20px;
+    font-family: 'Cormorant SC', serif;
+}
+.btn{
+    font-family: 'Cormorant SC', serif;
+    font-size: 30px;
+    background-color: white;
+    width: 50%;
+}
+label{
+    font-size: 30px;
+    font-family: 'Cormorant SC', serif;
+}
+.containerone{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.event{
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 40%;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h5, h6{
+    font-family: 'Cormorant SC', serif;
+    font-size: 20px;
+    margin: 5px;
+}
